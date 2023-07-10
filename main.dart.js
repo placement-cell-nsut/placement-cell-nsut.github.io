@@ -50661,13 +50661,16 @@ A.az1.prototype={
 $1(a){var s=0,r=A.K(t.H),q=this,p,o
 var $async$$1=A.G(function(b,c){if(b===1)return A.H(c,r)
 while(true)switch(s){case 0:o=q.a
+B.c.T(o.k2)
+p=o.db
+if(p!=null)p.sp(0,0)
+B.c.T(o.k1)
+p=o.cy
+if(p!=null)p.sp(0,0)
 o.W(new A.ayO(o,a))
 s=2
 return A.x(A.aw(q.b,!1,t.rJ).xc(a),$async$$1)
-case 2:B.c.T(o.k2)
-p=o.db
-if(p!=null)p.sp(0,0)
-o.M0()
+case 2:o.M0()
 o.LZ()
 return A.I(null,r)}})
 return A.J($async$$1,r)},
