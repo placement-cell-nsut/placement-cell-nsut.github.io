@@ -46913,10 +46913,16 @@ s=q.as
 if(s==null)s=3
 r=B.e.b6(p,s)===0?p-s:B.e.fH(p,s)*s
 this.a2(q.HY(r+s,r))},
-IM(){var s,r=A.a(["rollNumber","name","emailNSUT","emailPersonal","contact","degree","branch","cgpa10th","cgpa12th","sem1Gpa","sem2Gpa","sem3Gpa","sem4Gpa","sem5Gpa","sem6Gpa","cgpaBeforeDrop","cgpa","backlog","dob","gender","category","address","resumeUrl"],t.s),q=this.c.f
-q.toString
-s=A.U(q).i("K<1,ay<f,@>>")
-new A.Ct().r_(A.a0(new A.K(q,new A.alg(),s),!0,s.i("ap.E")),"event_registerations",r)},
+IM(){var s,r,q=A.a(["rollNumber","name","emailNSUT","emailPersonal","contact","degree","branch","cgpa10th","cgpa12th","sem1Gpa","sem2Gpa","sem3Gpa","sem4Gpa","sem5Gpa","sem6Gpa","cgpaBeforeDrop","cgpa","backlog","dob","gender","category","address","resumeUrl"],t.s),p=this.c.f
+p.toString
+s=A.U(p).i("K<1,ay<f,@>>")
+r=A.a0(new A.K(p,new A.alg(),s),!0,s.i("ap.E"))
+s=this.c
+p=s.d
+p=p==null?null:p.b
+s=s.a
+s=s==null?null:s.db
+new A.Ct().r_(r,A.d(p)+"-"+A.d(s),q)},
 cH(){var s=0,r=A.J(t.z),q=1,p,o=this,n,m,l,k,j,i
 var $async$cH=A.F(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
