@@ -8741,7 +8741,7 @@ return new A.P8(J.fx(t.j.a(r.h(a,s)))?A.aN(J.dS(r.h(a,s),new A.ac4()),!0,t.p_):A
 b1s(a){var s,r,q,p,o,n
 try{p=J.aj(a)
 o=p.h(a,"ques")
-p=p.h(a,"expected_ques")
+p=p.h(a,"expectedAns")
 s=new A.lm(o,p==null?"":p)
 return s}catch(n){r=A.a4(n)
 q=A.aK(n)
@@ -47889,7 +47889,7 @@ A.ac5.prototype={
 $1(a){return a.aH()},
 $S:423}
 A.lm.prototype={
-aH(){return A.a6(["ques",this.a,"expected_ques",this.b],t.N,t.z)},
+aH(){return A.a6(["ques",this.a,"expectedAns",this.b],t.N,t.z)},
 grO(){return this.a}}
 A.jQ.prototype={
 aH(){var s,r,q,p,o=this,n=o.e
