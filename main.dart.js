@@ -64690,7 +64690,7 @@ m=p.b
 $.VL()
 l=6378137*(2*Math.asin(Math.sqrt(Math.pow(Math.sin((m-n)*3.141592653589793/180/2),2)+Math.pow(Math.sin((p.c-o)*3.141592653589793/180/2),2)*Math.cos(n*3.141592653589793/180)*Math.cos(m*3.141592653589793/180))))
 if(l<r){j.a=p.a
-r=l}}if(r>150){A.c4(B.fi,"You are not in the vicinity (150m) of any event centre.",5,null,u.E,!0)
+r=l}}if(r>1000){A.c4(B.fi,"You are not in the vicinity (150m) of any event centre.",5,null,u.E,!0)
 k.mR()}k.J(new A.b7B(j,k))},
 G(a){return A.e6(null,null,new A.b7I(this),t.V,t.hi)}}
 A.b7C.prototype={
