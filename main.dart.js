@@ -64690,7 +64690,7 @@ m=p.b
 $.VL()
 l=6378137*(2*Math.asin(Math.sqrt(Math.pow(Math.sin((m-n)*3.141592653589793/180/2),2)+Math.pow(Math.sin((p.c-o)*3.141592653589793/180/2),2)*Math.cos(n*3.141592653589793/180)*Math.cos(m*3.141592653589793/180))))
 if(l<r){j.a=p.a
-r=l}}if(r>1e6){A.c4(B.fi,"You are not in the vicinity (1Km) of any event centre. Please move to the nearest event centre to mark attendance.",5,null,u.E,!0)
+r=l}}if(r>150){A.c4(B.fi,"You are not in the vicinity (150m) of any event centre.",5,null,u.E,!0)
 k.mR()}k.J(new A.b7B(j,k))},
 G(a){return A.e6(null,null,new A.b7I(this),t.V,t.hi)}}
 A.b7C.prototype={
@@ -160451,7 +160451,7 @@ s($,"bV1","byt",()=>new A.amN())
 r($,"c10","cc",()=>$.byt())
 r($,"c0j","bih",()=>B.TJ)
 s($,"c1u","bo2",()=>new A.aGN())
-s($,"c1g","bnX",()=>A.b([A.au0(28.7499,77.1177,"CC"),A.au0(28.7501,77.1177,"APJ"),A.au0(28.5477,77.2736,"CB"),A.au0(28.6894,77.2748,"SB")],t.r3))
+s($,"c1g","bnX",()=>A.b([A.au0(28.6103224,77.0391433,"CC"),A.au0(28.611999,77.0371943,"APJ"),A.au0(28.6096796,77.038127,"CB"),A.au0(28.612029,77.037714,"SB")],t.r3))
 s($,"c1y","bo3",()=>A.bA("^\\d{4}[A-Z]{3}\\d{4}$",!1,!1))
 s($,"bZC","bAm",()=>A.it(B.dl))
 s($,"bZB","bAl",()=>A.it(B.ct))
